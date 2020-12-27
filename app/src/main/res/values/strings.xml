@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">أفهمها و عيشها</string>
+
+    <string name="info_text1">أفهمها وعشها</string>
+    <string name="info_text2">افهمها و عشها هي أول منصه أعلاميه الكترونيه مصريه للحوار، حيث تهتم بتقديم محتوي صحفي هادف يساهم في تجديد لغه الحوار.        ثقافه التسامح.</string>
+    <string name="info_text3">تواصل معنا</string>
+    <string name="notification_text3">لا توجد اشعارات</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="login_text1">افهمها و عيشها</string>
+    <string name="login_text2">البريد الإلكتروني</string>
+    <string name="login_text4">كلمة السر</string>
+    <string name="login_text5">هل نسيت كلمه السر؟</string>
+    <string name="login_text6">تسجيل الدخول</string>
+    <string name="login_text7">أو</string>
+    <string name="login_text8">لست عضو لدينا؟سجل جديد</string>
+    <string name="register_text1">اسم المستخدم</string>
+    <string name="register_text2">البريد الإلكتروني</string>
+    <string name="register_text3">كلمة السر</string>
+    <string name="register_text4">تأكيد كلمة السر</string>
+    <string name="register_text5">تسجيل جديد</string>
+    <string name="register_text6">عضو بالفعل!تسجل الدخول الان</string>
+    <string name="forget_text1">هل نسيت كلمة السر ؟</string>
+    <string name="forget_text2">لإعادة تعيين كلمه السر,أدخل بريدك الإلكتروني,واضغط علي الزر وتحقق من البريد الإلكتروني وأتبع التعليماتز</string>
+    <string name="forget_text3">البريد الإلكتروني</string>
+    <string name="forget_text4">اعاده تعيين كلمة السر</string>
+    <string name="profile_text1">تسجيل الخروج</string>
+    <string name="post_text1">نشر</string>
+    <string name="post_text2">العنوان</string>
+    <string name="post_text3">الموضوع</string>
+    <string name="post_text4">وصف الصوره</string>
+    <string name="title_activity_view_post">ViewPostActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

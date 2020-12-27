@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/articlesFragment2">
+
+    <fragment
+        android:id="@+id/articlesFragment2"
+        android:name="com.example.task_efhamha.ui.articles.ArticlesFragment"
+        android:label="أجدد الموضوعات" />
+<!--    <fragment-->
+<!--        android:id="@+id/notificationFragment2"-->
+<!--        android:name="com.example.task_efhamha.ui.notification.NotificationFragment"-->
+<!--        android:label="الاشعارات" />-->
+    <fragment
+        android:id="@+id/infoFragment2"
+        android:name="com.example.task_efhamha.ui.information.InfoFragment"
+        android:label="عن المجلة" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.task_efhamha.ui.profile.LoginFragment"
+        android:label="المعلومات الشخصية" />
+
+</navigation>

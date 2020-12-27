@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImage_iv_register"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_profile2"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/white"
+            />
+
+        <EditText
+            android:id="@+id/userName_et_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@android:color/white"
+            android:hint="@string/register_text1"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/email_et_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@android:color/white"
+            android:hint="@string/register_text2"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:endIconTint="@android:color/white"
+            app:errorContentDescription="is Empty!"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/white">
+
+            <EditText
+                android:id="@+id/password_et_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:hint="@string/register_text3"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:endIconTint="@android:color/white"
+            app:errorContentDescription="is Empty!"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/white">
+
+            <EditText
+                android:id="@+id/confirmPassword_et_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:hint="@string/register_text4"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/register_btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/profile_btn"
+            android:text="@string/register_text5"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/login_tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/register_text6"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

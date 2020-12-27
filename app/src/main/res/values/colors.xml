@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#014a7f</color>
+    <color name="colorPrimaryDark">#014a7f</color>
+    <color name="colorAccent">#014a7f</color>
+
+    <color name="textColor">#014a7f</color>
+    <color name="iconColor">#BEBEBE</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="login_btn_color">#e59407</color>
+
+    <color name="login_btn_color2">#FF0000</color>
+
+    <color name="main">#014a7f</color>
+    <color name="grey">#8B9191</color>
+</resources>
